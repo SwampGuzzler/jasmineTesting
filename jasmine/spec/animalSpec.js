@@ -1,4 +1,4 @@
-describe("Animal", function() {
+/*describe("Animal", function() {
 	it("should have 6 legs if it's an insect", function() {
 		var insect = new Animal();
 		insect.kind = "insect";
@@ -14,4 +14,4 @@ describe("Animal", function() {
 		millipede.kind = "millipede";
 		expect(millipede.numLegs()).toBeUndefined();
 	});
-});
+});*/
