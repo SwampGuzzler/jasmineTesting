@@ -1,2 +1,2 @@
-function Stock () {};
+function Stock () {}
 
