@@ -1,3 +1,4 @@
+'use strict'; 
 var stock, investment;
 describe("Investment", function() {
 	beforeEach(function() {
@@ -33,6 +34,7 @@ describe("Investment", function() {
     });
 
 	it("should be a good investment, with a custom Test", function() {
+	  //expect(investment).toBeAGoodInvestment();
 	  expect(investment.toBeAGoodInvestment()).toBeTruthy();
 	});
   });

@@ -1,3 +1,4 @@
+'use strict'; 
 function Investment (paramObject) {
 	var paramObject = paramObject || {};
 	this.stock = paramObject.stock;

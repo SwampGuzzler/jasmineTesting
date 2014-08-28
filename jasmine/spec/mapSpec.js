@@ -1,3 +1,4 @@
+'use strict'; 
 //var Map = require('/Map');
 describe("Leaflet", function() {
 	// Problem: We can't initialize the map here, where all the it/expect statements can access it like

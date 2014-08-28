@@ -15,8 +15,8 @@ function (jasmine) {
         this.message = function() {
           return 'Expected investment to be a '+ what +' investment';
         };
-
-        return investment.get('isGood');
+        return investment.isGood();
+        //return investment.get('isGood');
       }
     });
   });
